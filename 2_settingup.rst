@@ -71,7 +71,7 @@ For funsies, you can try entering data to the form, then clicking on Submit.  Yo
 
 In the next part of the tutorial, we will build the backend that will generate the page that cannot currently be found.
 
-An aside:  Take a look at the url_for method in the link tag. The url_for method will help figure out the css filepath.  (Alternately, you can type the URL directly instead of using url_for.)::
+An aside:  Take a look at the ``url_for`` method in the ``link`` tag. The ``url_for`` method will help figure out the css filepath.  (Alternately, you can type the URL directly instead of using ``url_for``.)::
     
     url_for('static',filename='style_lulu.css')
 
