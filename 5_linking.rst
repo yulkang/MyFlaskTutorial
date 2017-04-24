@@ -160,4 +160,4 @@ the form to take the ``action`` equal to ``next_lulu``.  The server goes looking
 inside ``application_lulu.py`` that is wrapped by the decorator that has ``/next_lulu`` as the
 argument.  Look over the code to see that it all links together.
 
-There's no ``@app_lulu.route('/next_lulu`)``, right?  LET'S FIX THAT NEXT.
+There's no ``@app_lulu.route('/next_lulu')``, right?  LET'S FIX THAT NEXT.
