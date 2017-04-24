@@ -156,7 +156,7 @@ and you should get an error that says::
 
 That's because we HAVEN'T TOLD THE SERVER what to do when the URL ``/next_lulu`` is requested. We
 told it to go to ``/next_lulu`` in the HTML template (``layout_lulu.html``), where we instructed
-the form to take the ``action`` equal to ``/next_lulu``.  The server goes looking for a function
+the form to take the ``action`` equal to ``next_lulu``.  The server goes looking for a function
 inside ``application_lulu.py`` that is wrapped by the decorator that has ``/next_lulu`` as the
 argument.  Look over the code to see that it all links together.
 
