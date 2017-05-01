@@ -7,7 +7,7 @@ dictionary with questions (as keys) and tuples of answers (as corresponding valu
 We will have a main function that will determine whether we should go to 1) the next question or 2) the end page (if there are 
 no more questions).
 
-We will request ``/next_lulu``with 1) the correct question number and 2) the correct question.  After each question is answered, 
+We will request ``/next_lulu`` with 1) the correct question number and 2) the correct question.  After each question is answered, 
 we will "pop" that key/value pair from the dictionary.
 
 We will need to have different processing for GET and POST requests for ``/next_lulu``.  For GET requests, we want to
